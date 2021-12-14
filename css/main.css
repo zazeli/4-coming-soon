@@ -1,0 +1,14 @@
+.container {
+    width: 1000px;
+    margin-left: calc(50% - 500px);
+    background-color: darkcyan;
+}
+
+
+@media (width: 1100px) {
+    .container {
+        width: 600px;
+        margin-left: calc(50% - 400px);
+        background-color: rgb(206, 88, 190);
+    }
+}
