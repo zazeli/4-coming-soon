@@ -12,3 +12,48 @@
 
 /* CUSTOM STYLES BELOW THIS COMMENT; FOR THIS PAGE */
 
+/* HERO:start */
+.hero {
+    padding-bottom: 30px;
+}
+
+.hero > .row-short {
+    text-align: center;
+}
+
+.hero .logo {
+    margin-bottom: 45px;
+    height: 40px;
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.hero .main-title {
+    font-size: 37px ;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.hero .main-description {
+    margin-bottom: 45px;
+    font-size: 17px;
+    color: gray;
+}
+
+.hero .clock {
+    margin-bottom: 45px;
+}
+
+.hero .form {
+    margin-bottom: 15px;
+}
+
+/* HERO:end */
+
+
+/* MAIN CONTENT:start */
+/* MAIN CONTENT:end */
+
+/* FOOTER:start */
+/* FOOTER:end */
