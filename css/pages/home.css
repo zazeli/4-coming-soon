@@ -15,6 +15,11 @@
 /* HERO:start */
 .hero {
     padding-bottom: 30px;
+    background-image: url(../../img/coomingsoon.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .hero > .row-short {
