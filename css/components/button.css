@@ -1,5 +1,13 @@
 .btn {
     font-size: 20px;
-    padding: 0.5em 1.5em;
-    border-radius: 0.25em;
+    padding: 0.8em 1em;
+    border-radius: 0.1em;
+    border: none;
+    background-color: var(--secondary-color);
+    color: whitesmoke;
+    cursor: grab;
+}
+
+.btn:hover {
+    background-color: var(--secondary-color-dark);
 }
