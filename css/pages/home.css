@@ -16,7 +16,7 @@
 .hero {
     padding-bottom: 30px;
     background-image: url(../../img/coomingsoon.jpg);
-    min-height: 100vh;
+    min-height: 90vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -51,7 +51,19 @@
 }
 
 .hero .form {
-    margin-bottom: 15px;
+    width: 90%;
+    margin: 0 5% 15px;
+}
+
+
+.hero .form > .input {
+    color: #fff;
+    border-color: currentColor;
+}
+
+.hero .form > .input::placeholder {
+    color: #fff;
+    border-color: currentColor;
 }
 
 /* HERO:end */
@@ -80,6 +92,21 @@ line-height: 1em;
 .content-description > .link {
     color: var(--secondary-color);
     text-decoration: none;
+}
+
+main .form > button {
+        float: right;
+}
+
+@media(min-width:900px) {
+
+main .form > input.input {
+    width: calc(50% - 10px);
+}
+
+main .form > input.input:last-of-type {
+    float: right;
+}
 }
 
 /* MAIN CONTENT:end */
