@@ -115,11 +115,12 @@ main .form > button {
 
 footer.container {
     padding-top: 0;
+    text-align: center;
 }
 
 .socials {
-    padding: 20px 0;
     text-align: center;
+    padding: 20px 0;
     border-bottom: 2px solid whitesmoke;
 }
 .socials > .fa {
@@ -136,6 +137,10 @@ footer.container {
 .socials > .fa:hover {
     background-color: #fff;
     color: var(--primary-color);
+}
+
+footer .logo {
+    height: 50px;
 }
 
 /* FOOTER:end */
