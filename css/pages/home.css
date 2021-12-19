@@ -1,119 +1,141 @@
 /* base */
-@import '../base/reset.css';
-@import '../base/variables.css';
-@import '../base/layout.css';
+@import "../base/reset.css";
+@import "../base/variables.css";
+@import "../base/layout.css";
 
 /* 3rd-party */
 
-@import '../components/font-awesome.min.css';
+@import "../components/font-awesome.min.css";
 
 /* components */
-@import '../components/button.css';
-@import '../components/clock.css';
-@import '../components/form.css';
-@import '../components/mouse.css';
-@import '../components/progress-bar.css';
+@import "../components/button.css";
+@import "../components/clock.css";
+@import "../components/form.css";
+@import "../components/mouse.css";
+@import "../components/progress-bar.css";
 
 /* CUSTOM STYLES BELOW THIS COMMENT; FOR THIS PAGE */
 
 /* HERO:start */
 .hero {
-    padding-bottom: 30px;
-    background-image: url(../../img/coomingsoon.jpg);
-    min-height: 90vh;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+  padding-bottom: 30px;
+  background-image: url(../../img/coomingsoon.jpg);
+  min-height: 90vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .hero > .row-short {
-    text-align: center;
+  text-align: center;
 }
 
 .hero .logo {
-    margin-bottom: 45px;
-    height: 40px;
-    width: 100%;
-    object-fit: contain;
-
+  margin-bottom: 45px;
+  height: 40px;
+  width: 100%;
+  object-fit: contain;
 }
 
 .hero .main-title {
-    font-size: 37px ;
-    text-transform: uppercase;
-    margin-bottom: 15px;
+  font-size: 37px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
 }
 
 .hero .main-description {
-    margin-bottom: 30px;
-    font-size: 17px;
-    color: gray;
+  margin-bottom: 30px;
+  font-size: 17px;
+  color: gray;
 }
 
 .hero .clock {
-    margin-bottom: 45px;
+  margin-bottom: 45px;
 }
 
 .hero .form {
-    width: 90%;
-    margin: 0 5% 15px;
+  width: 90%;
+  margin: 0 5% 15px;
 }
 
-
 .hero .form > .input {
-    color: #fff;
-    border-color: currentColor;
+  color: #fff;
+  border-color: currentColor;
 }
 
 .hero .form > .input::placeholder {
-    color: #fff;
-    border-color: currentColor;
+  color: #fff;
+  border-color: currentColor;
 }
 
 /* HERO:end */
 
-
 /* MAIN CONTENT:start */
 .column > * {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .column > *:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .content-title {
-text-transform: uppercase;
-font-size: 20px;
-line-height: 1em;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 1em;
 }
 
 .content-description {
-    font-size: 15px;
-    color: #999;
+  font-size: 15px;
+  color: #999;
 }
 
 .content-description > .link {
-    color: var(--secondary-color);
-    text-decoration: none;
+  color: var(--secondary-color);
+  text-decoration: none;
 }
 
 main .form > button {
-        float: right;
+  float: right;
 }
 
-@media(min-width:900px) {
-
-main .form > input.input {
+@media (min-width: 900px) {
+  main .form > input.input {
     width: calc(50% - 10px);
-}
+  }
 
-main .form > input.input:last-of-type {
+  main .form > input.input:last-of-type {
     float: right;
-}
+  }
 }
 
 /* MAIN CONTENT:end */
 
 /* FOOTER:start */
+
+footer.container {
+    padding-top: 0;
+}
+
+.socials {
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid whitesmoke;
+}
+.socials > .fa {
+
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all 1s;
+}
+.socials > .fa:hover {
+    background-color: #fff;
+    color: var(--primary-color);
+}
+
 /* FOOTER:end */
