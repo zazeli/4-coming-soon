@@ -115,7 +115,9 @@ main .form > button {
 
 footer.container {
     padding-top: 0;
+    font-size: 17px;
     text-align: center;
+    color: #fff8;
 }
 
 .socials {
@@ -144,6 +146,53 @@ footer .logo {
     margin: 50px 0;
     object-fit: contain;
     margin-top: 40px;
+}
+
+footer .trio > p {
+  display: inline-block;
+  padding: 0 10px;
+  position: relative;
+}
+
+footer .trio > p::before {
+  content: '';
+  width: 1px;
+  height: 70%;
+  display: inline-block;
+  background-color: #fff8;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+
+}
+
+footer .trio > p:first-child::before {
+ display: none;
+
+}
+
+
+.dollar::before{
+  content: '$';
+}
+
+.dollar::after{
+  content: '😜';
+}
+
+footer .link {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 700px) {
+  footer .trio > p {
+    width: 100%;
+  }
+  footer .trio > p::before {
+    display: none;
+  }
 }
 
 /* FOOTER:end */
