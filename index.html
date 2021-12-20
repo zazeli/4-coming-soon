@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,12 +18,14 @@
     <meta name="theme-color" content="#ffffff">
 
 </head>
+
 <body>
+
     <section class="container bg-primary hero">
         <div class="row-short">
             <img class="logo" src="./img/icon-logo small (1).png" alt="Logo">
             <h1 class="main-title">Coming soon</h1>
-            <p class="main-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam labore numquam ad fugit consectetur asperiores? Ipsam, commodi molestiae?      
+            <p class="main-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam labore numquam ad fugit consectetur asperiores? Ipsam, commodi molestiae?
             </p>
             <div class="clock">
                 <div class="time">
@@ -43,7 +46,13 @@
                 </div>
             </div>
             <form class="form">
-                SUBSCRIBE NOW
+
+                <form class="form">
+                    <label for="email">Email</label>
+                    <input class="input" type="email" placeholder="Email" required autocomplete="email">
+                </form>
+
+                <button class="btn">Click me</button>
             </form>
             <div class="mouse">
                 MOUSE
@@ -52,23 +61,82 @@
     </section>
     <main class="container">
         <div class="row">
-            <div class="left">
-                LEFT CONTENT 
+            <div class="column left">
+                <h2 id="about_startup" class="content-title">About startup</h2>
+                <p class="content-description">Lorem ipsum dolor sit amet, <a class="link" href="#">Matrox</a> consectetur adipisicing elit. Cupiditate, aspernatur.
+                </p>
+                <div class="progress-bar">
+                    <div class="top">
+                        <div class="title">UX Design</div>
+                        <div class="value">90%</div>
+                    </div>
+                    <div class="bottom">
+                        <div class="bar" style="width: 90%;"></div>
+                    </div>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="top">
+                        <div class="title">Web Design</div>
+                        <div class="value">86%</div>
+                    </div>
+                    <div class="bottom">
+                        <div class="bar" style="width: 86%;"></div>
+                    </div>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="top">
+                        <div class="title">Web Development</div>
+                        <div class="value">50%</div>
+                    </div>
+                    <div class="bottom">
+                        <div class="bar" style="width: 50%;"></div>
+                    </div>
+                </div>
             </div>
-            <div class="right">
-                RIGHT CONTENT 
+
+            <div class="column right">
+                <h2 id="questions" class="content-title">Have any question?</h2>
+                <p class="content-description">Lorem ipsum dolor sit amet consectetur, <a class="link" href="mailto:hellothere@emailemail.shoo">hellothere@emailemail.shoo</a> adipisicing elit. Debitis est at fuga minus aliquam aspernatur.
+                </p>
+                <form class="form">
+                    <label for="name">Name</label>
+                    <input class="input" type="name" placeholder="Name" required autocomplete="name" value="">
+                    <label for="email">Email</label>
+                    <input class="input" type="email" placeholder="Email" required autocomplete="email">
+                    <label for="Message">Message</label>
+                    <textarea class="input" name="message" id="" placeholder="Message" required autocomplete="off"></textarea>
+                    <button class="btn" type="submit">Send message</button>
+
+                </form>
             </div>
         </div>
     </main>
     <footer class=" container bg-primary">
-        <div class="row">
-       FOOTER CONTENT 
+        <div class="row socials">
+            <a href="https://example.com" target="_blank" class="fa fa-question social" aria-hidden="true"></a>
+            <a href="https://example.com" target="_blank" class="fa fa-heartbeat social" aria-hidden="true"></a>
+            <a href="https://example.com" target="_blank" class="fa fa-usb social" aria-hidden="true"></a>
+            <a href="https://example.com" target="_blank" class="fa fa-wikipedia-w social" aria-hidden="true"></a>
+            <a href="https://example.com" target="_blank" class="fa fa-rocket social" aria-hidden="true"></a>
+            <a href="https://example.com" target="_blank" class="fa fa-fire social" aria-hidden="true"></a>
+            <a href="https://example.com" target="_blank" class="fa fa-check social" aria-hidden="true"></a>
+            <a href="#" class="fa fa-angle-up btn btn-round btn-icon back-to-top"></a>
         </div>
         <div class="row-short">
-        FOOTER CONTENT  
+            <img src="./img/logo-white.png" alt="Logo" class="logo">
+            <div class="trio">
+                <p>Copyright &copy; 2021 <a href="#" class="link"> Matrox</a> </p>
+                <p>All rights reserved</p>
+                <p>Designed by <a href="#" target="_blank" class="link">Trendy Theme</a></p>
+            </div>
+            <p>Lorem ipsum <span class="dollar"> 17 </span> dolor sit amet consectetur adipisicing elit. Official, <a href="#" class="link">200+</a> suscipit odit culpa ipsum iusto deserunt cupiditate, nihil maxime magni, dolorem minus delectus <a href="#" class="link">Matrox</a> quae.
+            </p>
         </div>
     </footer>
-</div>
+
+    </div>
 </body>
 
 </html>
