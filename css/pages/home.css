@@ -83,6 +83,9 @@
   text-transform: uppercase;
   font-size: 20px;
   line-height: 1em;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
 }
 
 .content-description {
@@ -123,8 +126,9 @@ footer.container {
 .socials {
     padding: 20px 0;
     border-bottom: 2px solid whitesmoke;
+    position: relative;
 }
-.socials > .fa {
+.socials > .social {
 
     height: 50px;
     width: 50px;
@@ -135,7 +139,7 @@ footer.container {
     border-radius: 50%;
     transition: all 1s;
 }
-.socials > .fa:hover {
+.socials > .social:hover {
     background-color: #fff;
     color: var(--primary-color);
 }
@@ -196,3 +200,19 @@ footer .link {
 }
 
 /* FOOTER:end */
+
+.back-to-top {
+
+  /* position: fixed;
+  bottom: 40px;
+  right: 40px; */
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media (max-width: 700px) {
+  .back-to-top {
+    display: none;
+  }
+}
